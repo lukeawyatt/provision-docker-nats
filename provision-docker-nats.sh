@@ -11,7 +11,7 @@
 
 # REQUIREMENTS:
 # ****************
-# Docker >= 17.09
+# Docker (Tested on 17.09)
 
 
 
