@@ -33,6 +33,11 @@ sudo ./provision-docker-nats.sh
 - NATS HTTP Monitoring Port: 8222
 
 
+## Examples
+
+Look in the **Examples** folder for Subscribe and Publish example scripts written in NodeJS.  These can be manipulated for quick testing and will currently connect explicitly to the localhost NATS client port.
+
+
 ## Upgrading
 
 When new versions of the packaged Dockerhub images are released, simply re-run this script to upgrade.  The new image will be downloaded and utilized during re-build.
