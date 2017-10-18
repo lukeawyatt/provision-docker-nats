@@ -1,0 +1,14 @@
+{
+  "name": "examples.nats",
+  "version": "1.0.0",
+  "description": "NATS usage examples",
+  "main": "publish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Wyatt <luke@meat.space>",
+  "license": "MIT",
+  "dependencies": {
+    "nats": "*"
+  }
+}
