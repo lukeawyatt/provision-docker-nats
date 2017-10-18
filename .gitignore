@@ -11,3 +11,6 @@ Desktop.ini
 
 # DEBUG FILES
 *.log
+
+# PROJECT SPECIFIC
+Examples/node_modules
