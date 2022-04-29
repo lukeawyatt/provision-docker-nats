@@ -14,7 +14,6 @@
 # Docker (Tested on 17.09)
 
 
-
 # LEAVE EVERYTHING ALONE BELOW THIS LINE
 # **************************************
 # SYSTEM SETUP
@@ -23,12 +22,10 @@ systemctl enable docker
 echo;echo;
 
 
-
 # PULL NAS DOCKER IMAGES
 echo "2) PULLING NATS IMAGE"
 docker pull nats:latest
 echo;echo;
-
 
 
 # STAGE ENVIRONMENT
@@ -40,7 +37,6 @@ docker stop NATS
 echo "Removing existing NATS container if exists..."
 docker rm NATS
 echo;echo;
-
 
 
 # RUN NATS CONTAINERS
@@ -57,7 +53,6 @@ docker run \
 echo;echo;
 
 
-
 # CLEANUP
 echo "5) DOCKER CLEANUP TIME"
 echo "Removing empty containers..."
@@ -69,7 +64,6 @@ docker system prune -a -f --volumes
 # echo "NOTE THIS WILL ERROR WHEN NOTHING NEEDS TO BE CLEANED UP"
 # docker rmi $(docker images -f "dangling=true" -q)
 echo;echo;
-
 
 
 # PROVISIONED OUTPUT
