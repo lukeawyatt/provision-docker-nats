@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ################################################################
 ##           UBUNTU-DOCKER-NATS PROVISIONING SCRIPT           ##
 ##           ********* RUN AS A SUPERUSER *********           ##
